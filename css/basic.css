@@ -11,6 +11,7 @@ body {
     width: 100%;
     background-image: url(../images/background-regular%20copy.png);
     background-size: cover;
+    overflow: scroll;
 }
 
 .header {
@@ -115,8 +116,6 @@ body {
 
 .footer {
     background: linear-gradient(0deg, rgba(255,255,255,0.926781631097561) 0%, rgba(255,255,255,0) 72%);
-    position: absolute;
-    bottom: 0;
     height: 120px;
     width: 100%;
 }
