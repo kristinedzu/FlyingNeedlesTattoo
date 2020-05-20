@@ -128,3 +128,21 @@
     padding: 3px;
     margin: auto 0;
 }
+
+button {
+    outline: none;
+}
+
+#giftcard_form {
+    display: none;
+    width: 90%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#close {
+    color: #556476;
+    background-color: transparent;
+    font-size: 25px;
+}
+

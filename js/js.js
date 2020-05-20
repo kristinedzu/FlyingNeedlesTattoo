@@ -1,4 +1,6 @@
 
+
+
 /* this is the photo gallery on about us page */
 
 $(document).ready(function () {
@@ -103,4 +105,25 @@ $(document).ready(function() {
     $('#ReadMore2').click(function() {
                 $('#ReadLess2').show(200);
             });
+    });
+
+
+/* gift card form */
+
+$(document).ready(function() {
+
+
+    $('#order').click(function() {
+                $('#giftcard_form').fadeIn(200),
+                $('#giftcard').hide(200),
+                $('.btn1').hide(200);
+            });
+
+    $('#close').click(function() {
+                $('#giftcard').fadeIn(200),
+                $('#giftcard_form').hide(200),
+                $('.btn1').fadeIn(200);
+            });
+
+
     });
