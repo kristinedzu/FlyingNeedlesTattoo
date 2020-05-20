@@ -28,16 +28,12 @@
 /*this is the photo gallery */
 
 .gallery_section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     margin: auto;
 }
 
 .gallery {
     width: 85%;
-    margin-top: 28px;
+    margin: 28px auto;
 }
 
 .image {
@@ -45,6 +41,18 @@
 }
 
 /* arrows */
+
+.slick-prev {
+    position: absolute;
+    top: 35%;
+    left: -7%;
+}
+
+.slick-next {
+    position: absolute;
+    top: 35%;
+    right: -7%;
+}
 
 .slick-prev,
 .slick-next {
