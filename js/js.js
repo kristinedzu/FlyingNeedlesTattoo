@@ -9,3 +9,16 @@ $(document).ready(function () {
         autoplay: true,
     });
 });
+
+
+/* feedback carousel */
+
+$(document).ready(function () {
+    $('.feedback_container').slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        autoplay: false,
+        swipe: true,
+    });
+});
