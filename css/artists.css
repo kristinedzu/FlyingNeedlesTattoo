@@ -1,0 +1,245 @@
+.first_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist_one {
+    background-color: #E8EAEB;
+    width: 100%;
+}
+
+.first_header {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    color: #556476;
+    padding: 31vw 0;
+    text-align: center;
+}
+
+.second_header {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    color: #E8EAEB;
+    padding: 30vw 0 32vw 0;
+}
+
+.arrow_scroll {
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+#anders_section {
+    background-color: #E8EAEB;
+    padding-top: 40px;
+}
+
+.artist_header {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: end;
+    padding: 40px 10px 0;
+    margin-left: 50%;
+    margin-bottom: 25px;
+    border-bottom: 9px solid #556476;
+}
+
+.artist_story {
+    padding: 10px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* read more button */
+
+.more {
+    display: none;
+}
+
+#ReadLess {
+    display: none;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    background-color: #E8EAEB;
+    color: #556476;
+    margin: 10px 0 auto 70%;
+}
+
+#ReadMore {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    background-color: #E8EAEB;
+    color: #556476;
+    margin: 5px 0 auto 65%;
+}
+
+button {
+    outline: none;
+}
+
+/* Read more button finishes */
+
+.artist_photo {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.booking_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SoMe_artist {
+    width: 60px;
+    padding: 20px 6px;
+}
+
+/* book button */
+
+.cta {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+.btn {
+   background-color: transparent;
+    border: 0.5px solid #546375;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 3px;
+    margin: auto 0;
+}
+
+
+/* artists portfolio */
+
+.gallery {
+    width: 85%;
+    margin: 28px auto;
+}
+
+.image {
+    width: 200px;
+}
+
+/* arrows */
+
+.slick-prev {
+    position: absolute;
+    top: 35%;
+    left: -7%;
+}
+
+.slick-next {
+    position: absolute;
+    top: 35%;
+    right: -7%;
+}
+
+.slick-prev,
+.slick-next {
+    width: 20px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'lato light';
+    font-size: 60px;
+    line-height: ;
+    color: white;
+}
+
+.slick-prev:before {
+    content: '‹';
+}
+
+
+.slick-next:before {
+    content: '›';
+}
+
+.arrow_background {
+    background-color: #E8EAEB;
+    padding-top: 10px;
+    padding-left: 45vw;
+}
+
+
+
+#inga_section {
+    background-color: #E8EAEB;
+    padding-top: 40px;
+}
+
+.artist2_header {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding: 40px 10px 0;
+    margin-right: 50%;
+    margin-bottom: 25px;
+    border-bottom: 9px solid #556476;
+}
+
+
+/* read more second button, because ID is different (can be used just once) */
+
+.more2 {
+display: none
+}
+
+#ReadLess2 {
+    display: none;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    background-color: #E8EAEB;
+    color: #556476;
+    margin: 10px 0 auto 70%;
+}
+
+#ReadMore2 {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    background-color: #E8EAEB;
+    color: #556476;
+    margin: 5px 0 auto 65%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.up {
+    margin-left: 45vw;
+}

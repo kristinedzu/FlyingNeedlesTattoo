@@ -9,8 +9,8 @@
 
 body {
     width: 100%;
-    background-image: url(../images/background-regular%20copy.png);
-    background-size: cover;
+    background-image: url(../images/background-regular.png);
+    background-size: contain;
     overflow: scroll;
 }
 
