@@ -1,0 +1,130 @@
+.prices {
+    background-color: #E8EAEB;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header_photo {
+    background-image: url(../images/backPrices.png);
+}
+
+.prices_header {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #2D2D2D;
+    font-size: 45px;
+    padding: 40px 0;
+}
+
+.subheader {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    padding: 15px;
+    color: #2D2D2D;
+    margin: 0 20%;
+}
+
+.top_line {
+    border-top: 1px solid #2D2D2D;
+    margin-top: 20px;
+}
+
+.prices_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: #2D2D2D;
+}
+
+.text {
+    padding-bottom: 12px;
+}
+
+.deposit {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #556476;
+}
+
+.cta {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 30px;
+    padding: 6px 35px;
+}
+
+.btn {
+   background-color: #E8EAEB;
+    border: 0.5px solid #546375;
+    border-radius: 32px;
+    font-size: 25px;
+    padding: 5px 6px;
+    margin: auto 0;
+}
+
+.booking_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.booking_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E8EAEB;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gift_div {
+    background-color: #E8EAEB;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftcard {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.cta1 {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+.btn1 {
+   background-color: transparent;
+    border: 0.5px solid #546375;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 3px;
+    margin: auto 0;
+}
