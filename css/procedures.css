@@ -1,0 +1,73 @@
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+  top: 0;
+}
+
+.procedures_header {
+    position: fixed;
+    width: 100%;
+    background-image: url(../images/prepareHeader-01.png);
+    background-size: cover;
+    text-align: end;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    padding: 10px;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.procedures_header1 {
+    padding-right: 14%;
+}
+
+.procedures_header2 {
+    text-align: end;
+}
+
+.prepare_content {
+    background-color: #E8EAEB;
+    padding-top: 32%;
+}
+
+.prepare_subh {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 15px 10px 0;
+}
+
+.prepare_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.prepare_img {
+    position: relative;
+    z-index: 1;
+    background-image: url(../images/prepareHand-01.png);
+    background-size: cover;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.white {
+    color: #E8EAEB;
+}
+
+.white2 {
+    padding-bottom: 95px;
+}
+
+.prepare_text2 {
+    position: relative;
+    z-index: 1;
+    background-color: #E8EAEB;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
