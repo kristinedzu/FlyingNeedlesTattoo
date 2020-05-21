@@ -68,8 +68,56 @@
 </section>
 
 <div class="booking_div">
+
+   <form action="#" id="booking_form">
+  <button type="button" class="close_book" id="close_book">&#x2715;</button><br>
+  <input type="text" placeholder="Full name" class="input_book" required><br>
+  <label for="" class="book_label">Style:</label><br>
+  <input list="browsers" name="browsers" class="input_book">
+  <datalist id="browsers">
+    <option value="Realistic">
+    <option value="Oldschool/Neotraditional">
+    <option value="Whipshading">
+    <option value="Dotwork">
+    <option value="Blackwork/Lines">
+    <option value="Color">
+    <option value="Color splashes/Watercolor">
+    <option value="Mix">
+  </datalist><br>
+
+  <select id="styles" name="styles" class="input_book" required>
+    <option value="Realistic">Realistic</option>
+    <option value="Oldschool/Neotraditional">Oldschool/Neotraditional</option>
+    <option value="Whipshading">Whipshading</option>
+    <option value="Dotwork">Dotwork</option>
+    <option value="Blackwork/Lines" class="option">Blackwork/Lines</option>
+    <option value="Color">Color</option>
+    <option value="Color splashes/Watercolor">Color splashes/Watercolor</option>
+    <option value="Mix">Mix</option>
+  </select><br>
+
+  <input type="email" placeholder="Email" class="input_book" required><br>
+  <input type="text" placeholder="Size (cm)" class="input_book" required><br>
+  <label for="" class="book_label">Available time:</label><br>
+  <input type="date"  class="input_book" required><br>
+
+  <label for="" class="book_label">Artists:</label><br>
+  <select id="artists" name="artists" class="input_book" required>
+    <option value="Anders">Anders</option>
+    <option value="Inga">Inga</option>
+  </select><br>
+
+    <input type="text" placeholder="Placement" class="input_book" required><br>
+    <input type="file" id="img" name="img" accept="image/*" class="input_book"><br>
+    <input type="text" placeholder="Comment" class="input_book comment"><br>
+
+  <div class="btn2">
+                <button type="submit" class="cta2 submit">SEND</button>
+            </div>
+</form>
+
     <p class="booking_text">Please fill out this form before booking.</p>
-    <div class="btn">
+    <div class="btn" id="book">
                 <button type="submit" class="cta">BOOK</button>
             </div>
 </div>
@@ -83,30 +131,15 @@
   <input type="text" placeholder="Full name" class="input_gift" required><br>
   <input type="email" placeholder="Email" class="input_gift" required><br>
   <input type="number" placeholder="Amount (kr)" class="input_gift" required><br>
-  <button type="submit" class="submit" >BUY</button>
+  <div class="btn2">
+                <button type="submit" class="cta2 submit">BUY</button>
+            </div>
 </form>
 
     <div class="btn1">
                 <button type="submit" class="cta1" id="order">ORDER</button>
             </div>
 </div>
-
-
-<form action="#" id="giftcard_form">
- <button type="button" class="close" id="close">&#x2715;</button><br>
-  <input type="text" placeholder="Full name" required><br>
-  <input type="email" placeholder="Email" required><br>
-  <input type="number" placeholder="Amount (kr)" required><br>
-  <button type="submit" class="submit" >BUY</button>
-</form>
-
-<form action="#" id="booking_form">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form>
 
 
 </main>

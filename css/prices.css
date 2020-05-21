@@ -133,16 +133,111 @@ button {
     outline: none;
 }
 
-#giftcard_form {
-    display: none;
-    width: 90%;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
 #close {
     color: #556476;
     background-color: transparent;
     font-size: 25px;
+    margin-left: 85%;
 }
 
+
+
+#name {
+    color: red;
+}
+
+.btn2 {
+    background-color: #E8EAEB;
+    border: 0.5px solid #546375;
+    border-radius: 35px;
+    font-size: 25px;
+    padding: 3px;
+}
+
+.cta2 {
+   background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+#giftcard_form {
+    position: absolute;
+    background-color: #E8EAEB;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.input_gift {
+    width: 90%;
+    padding: 7px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #556476;
+    font-size: 13px;
+}
+
+input {
+    outline: none;
+}
+
+#booking_form {
+    position: absolute;
+    top: 25vw;
+    width: 100%;
+    background-color: #556476;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 26px;
+    padding-top: 60px;
+}
+
+.close_book {
+    color: #E8EAEB;
+    background-color: transparent;
+    font-size: 25px;
+    margin-left: 85%;
+    padding-bottom: 30px
+}
+
+.input_book {
+    width: 70%;
+    padding: 7px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #556476;
+    font-size: 13px;
+    background-color: #E8EAEB;
+}
+
+.book_label {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #E8EAEB;
+    margin-bottom: -15px;
+}
+
+.comment {
+    padding-bottom: 50px;
+}
+
+select {
+    outline: none;
+    border-radius: 0;
+}

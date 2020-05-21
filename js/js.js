@@ -112,17 +112,34 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
+    $('#giftcard_form').hide(0);
 
     $('#order').click(function() {
                 $('#giftcard_form').fadeIn(200),
-                $('#giftcard').hide(200),
-                $('.btn1').hide(200);
+                $('.btn1').hide(0);
             });
 
     $('#close').click(function() {
-                $('#giftcard').fadeIn(200),
-                $('#giftcard_form').hide(200),
-                $('.btn1').fadeIn(200);
+                $('#giftcard_form').hide(0),
+                $('.btn1').fadeIn(0);
+            });
+
+
+    });
+
+
+/* booking form */
+
+$(document).ready(function() {
+
+    $('#booking_form').hide(0);
+
+    $('#book').click(function() {
+                $('#booking_form').fadeIn(200);
+            });
+
+    $('#close_book').click(function() {
+                $('#booking_form').hide(0);
             });
 
 
