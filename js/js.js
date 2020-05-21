@@ -1,4 +1,19 @@
+/* burger menu */
 
+$(document).ready(function() {
+
+    $('#navmenu').hide(0);
+
+    $('#openMenu').click(function() {
+                $('#navmenu').fadeIn(200);
+            });
+
+    $('#menuClose').click(function() {
+                $('#navmenu').hide(0);
+            });
+
+
+    });
 
 
 /* this is the photo gallery on about us page */
