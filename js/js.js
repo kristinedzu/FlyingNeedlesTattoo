@@ -5,11 +5,13 @@ $(document).ready(function() {
     $('#navmenu').hide(0);
 
     $('#openMenu').click(function() {
-                $('#navmenu').fadeIn(200);
+                $('#navmenu').fadeIn(200),
+                    $('main').hide(0);
             });
 
     $('#menuClose').click(function() {
-                $('#navmenu').hide(0);
+                $('#navmenu').hide(0),
+                    $('main').fadeIn(0);
             });
 
 
@@ -160,6 +162,26 @@ $(document).ready(function() {
 
     });
 
-/*map*/
 
 
+/* open aftercare sheet */
+
+$(document).ready(function() {
+
+    $('#aftercare_sheet').hide(0),
+    $('#aftercareCLose').hide(0);
+
+    $('#aftercare').click(function() {
+                $('#aftercare_sheet').fadeIn(0),
+                  $('#aftercare').hide(0),
+                    $('#aftercareCLose').fadeIn(0);
+            });
+
+    $('#aftercareCLose').click(function() {
+                $('#aftercare_sheet').hide(0),
+                  $('#aftercare').fadeIn(0),
+                    $('#aftercareCLose').hide(0);
+            });
+
+
+    });
