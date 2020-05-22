@@ -1,3 +1,7 @@
+.art {
+    width: 100%;
+}
+
 .poster-section {
     margin: 0;
     background: #E8EAEB;
@@ -36,7 +40,7 @@
     font-size: 35px;
     text-align: end;
     padding: 40px 10px 0;
-    margin-left:40%;
+    margin-left:30%;
     margin-bottom: 25px;
     border-bottom: 9px solid #556476;
 
@@ -84,7 +88,7 @@
     font-style: normal;
     font-size: 35px;
     padding: 40px 10px 0;
-    margin-right: 40%;
+    margin-right: 30%;
     margin-bottom: 25px;
     border-bottom: 9px solid #556476;
 
