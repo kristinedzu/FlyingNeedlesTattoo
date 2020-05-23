@@ -36,6 +36,9 @@
 #anders_section {
     background-color: #E8EAEB;
     padding-top: 40px;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-align: justify;
 }
 
 .artist_header {
@@ -56,8 +59,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+
 }
 
+.anders-subheaders {
+   font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
 /* read more button */
 
 .more {
@@ -195,6 +205,9 @@ button {
 #inga_section {
     background-color: #E8EAEB;
     padding-top: 40px;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-align: justify;
 }
 
 .artist2_header {
@@ -208,7 +221,17 @@ button {
     border-bottom: 9px solid #556476;
 }
 
+.inga-facts {
+   font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
 
+.list-facts li {
+    list-style-type: square;
+    margin-left: 20px;
+}
 /* read more second button, because ID is different (can be used just once) */
 
 .more2 {

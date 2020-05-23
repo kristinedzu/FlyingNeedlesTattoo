@@ -30,9 +30,9 @@
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 6px;
 
-}
+
 }
 
 .bookmarks-image {
@@ -56,6 +56,7 @@
 
 .bookmarks-section {
     background: #E8EAEB;
+    padding-top: 30px;
 }
 
 /*stickers section*/
