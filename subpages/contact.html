@@ -32,20 +32,20 @@
 
             <nav>
                 <div id="menu">
-            <input type="checkbox" id="openMenu">
-            <span></span>
-            <span></span>
-            <span class="third_span"></span>
-            <ul id="navmenu">
-               <button type="button" id="menuClose">&#x2715;</button>
-                <li><a href="../subpages/aboutus.html" class="navlink1">ABOUT US</a></li>
-                <li><a href="../subpages/artists.html" class="navlink2">ARTISTS</a></li>
-                <li><a href="../subpages/procedures.html" class="navlink3">PROCEDURES</a></li>
-                <li><a href="../subpages/prices.html" class="navlink4">PRICES/BOOK</a></li>
-                <li><a href="../subpages/merchandise.html" class="navlink5">MERCHANDISE</a></li>
-                <li><a href="../subpages/contact.html" class="navlink6">CONTACTS</a></li>
-            </ul>
-        </div>
+                    <input type="checkbox" id="openMenu">
+                    <span></span>
+                    <span></span>
+                    <span class="third_span"></span>
+                    <ul id="navmenu">
+                        <button type="button" id="menuClose">&#x2715;</button>
+                        <li><a href="../subpages/aboutus.html" class="navlink1">ABOUT US</a></li>
+                        <li><a href="../subpages/artists.html" class="navlink2">ARTISTS</a></li>
+                        <li><a href="../subpages/procedures.html" class="navlink3">PROCEDURES</a></li>
+                        <li><a href="../subpages/prices.html" class="navlink4">PRICES/BOOK</a></li>
+                        <li><a href="../subpages/merchandise.html" class="navlink5">MERCHANDISE</a></li>
+                        <li><a href="../subpages/contact.html" class="navlink6">CONTACTS</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -68,9 +68,9 @@
                 tattooflyingneedles@gmail.com</p>
         </section>
         <div class="SoMe_div">
-            <img src="../images/facebook.png" alt="FacebookIcon" class=SoMe>
-            <img src="../images/instagram.png" alt="InstagramIcon" class=SoMe>
-            <img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe>
+            <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe></a>
+            <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe></a>
+            <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe></a>
         </div>
         <section class="contact-form">
             <div class="write-contact">
@@ -101,9 +101,12 @@
                 zoom: 15
             });
 
-            var marker = new mapboxgl.Marker({color: '#556476'})
+            var marker = new mapboxgl.Marker({
+                    color: '#556476'
+                })
                 .setLngLat([10.190, 56.142])
                 .addTo(map);
+
         </script>
 
     </main>
@@ -114,4 +117,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
