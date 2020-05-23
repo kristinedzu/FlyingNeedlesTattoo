@@ -1,5 +1,3 @@
-
-
 .poster-section {
     margin: 0;
     background: #E8EAEB;
@@ -27,11 +25,11 @@
 
 
 .shop-note {
-     font-size: 16px;
+    font-size: 16px;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
     font-weight: 400;
-   text-align: center;
+    text-align: center;
     padding-top: 5px;
 
 }
@@ -49,7 +47,7 @@
     font-size: 35px;
     text-align: end;
     padding: 40px 10px 0;
-    margin-left:32%;
+    margin-left: 32%;
     margin-bottom: 25px;
     border-bottom: 9px solid #556476;
 
@@ -112,4 +110,3 @@
     padding-bottom: 50px;
 
 }
-
