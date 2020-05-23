@@ -71,3 +71,103 @@
     padding-bottom: 20px;
     padding-top: 10px;
 }
+
+.hygiene_section {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.hygiene_header {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    background-image: url(../images/hygiene-01.png);
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 105px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    font-size: 13vw;
+}
+
+.hygiene_text {
+    background-color: #E8EAEB;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.hygiene_image {
+    width: 100%;
+}
+
+.aftercare {
+    position: relative;
+    z-index: 4;
+    background-image: url(../images/aftercare-01.png);
+    background-size: cover;
+    height: 300px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;;
+    justify-content: space-between;
+}
+
+.aftercare_text {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 10px;
+
+}
+
+.aftercare_header {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12vw;
+    padding-right: 14%;
+    padding-left: 14%;
+    color: #E8EAEB;
+    text-align: center;
+}
+
+.btn {
+    background-color: transparent;
+    border: 0.5px solid #546375;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 3px;
+    margin: 0 10px 10px 0;
+}
+
+.cta {
+    background-color: #E8EAEB;
+    color: #59687A;
+    border: 1.5px solid #546375;
+    border-radius: 25px;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+   text-align: center;
+    font-size: 20px;
+    padding: 6px 30px;
+}
+
+button {
+    outline: none;
+}
+
+#aftercare_sheet {
+    width: 100%;
+    position: relative;
+    z-index: 7;
+}
+
