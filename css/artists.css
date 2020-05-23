@@ -268,3 +268,7 @@ a {
 .up {
     margin-left: 45vw;
 }
+
+.breadcrumb {
+    font-size: 65px;
+}

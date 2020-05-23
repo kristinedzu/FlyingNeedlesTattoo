@@ -184,3 +184,8 @@ input[type=text] {
     margin-top: 25px;
 
 }
+
+
+.breadcrumb {
+    font-size: 60px;
+}
