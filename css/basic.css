@@ -113,6 +113,7 @@ body {
     position: absolute;
     top: 10px;
     right: 20px;
+    cursor: pointer;
 }
 
 #navmenu {
@@ -238,6 +239,7 @@ li {
 
 @media only screen and (min-width: 768px) {
 
+<<<<<<< HEAD
     .header {
         height: 20%;
     }
@@ -245,23 +247,77 @@ li {
     .logo_sub {
         width: 20%;
     }
+=======
 
-    .navigation_bar {
-        margin-right: 1.5%;
+    main {
+        background-color: #E8EAEB;
     }
 
+    .logo_sub {
+    width: 10%;
+        position: fixed;
+    }
+
+    .logo_div {
+        width: 90%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+>>>>>>> origin/master
+
+    .navigation_bar {
+        width: 10%;
+        position: relative;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4237328506097561) 53%, rgba(255,255,255,0) 100%);
+        height: 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
     .search_icon {
+<<<<<<< HEAD
         width: 64px;
         padding-right: 20px;
     }
+=======
+    width: 5vw;
+        max-width: 50px;
+        padding-right: 0.7vw;
+        margin-top: 18px;
+}
+>>>>>>> origin/master
+
+    #menu {
+        margin-top: 28px;
+
+    }
 
     #menu span {
+<<<<<<< HEAD
         width: 53px;
         height: 2.5px;
         margin-right: 20px;
         margin-left: 20px;
         margin-bottom: 8px;
     }
+=======
+    width: 37px;
+    height: 2px;
+        margin-bottom: 8px;
+        color: #E8EAEB;
+}
+
+    #menu span:nth-last-child(2) {
+    width: 30px;
+}
+>>>>>>> origin/master
 
     #menu input {
         display: block;
@@ -287,23 +343,40 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
         background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.4237328506097561) 53%, rgba(255, 255, 255, 0) 100%);
     }
+=======
+        background-image: url(../images/back_breadcrumb-01.png);
+        background-size: contain;
+}
+>>>>>>> origin/master
 
 
     main {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+
     }
 
+
     .main_content {
+<<<<<<< HEAD
         width: 90%;
+=======
+width: 80%;
+        margin-left: 10%;
+        background-image: url(../images/background-regularWeb.png);
+        background-size: contain;
+        background-repeat: repeat;
+>>>>>>> origin/master
     }
 
     .breadcrumb {
         position: fixed;
-        top: 15%;
+        top: 10%;
         writing-mode: vertical-rl;
         text-orientation: mixed;
         writing-mode: vertical-rl;
@@ -315,19 +388,59 @@ li {
         opacity: 0.2;
     }
 
-    .SoMe_div {
+    .SoMe_div_side {
         position: fixed;
-        bottom: 5%;
+        bottom: 2%;
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        flex-direction: column;
+    }
+
+    .SoMe_side {
+        width: 6vw;
+        max-width: 50px;
+        padding: 5px;
     }
 
 
+    /* media queries for burger menu */
+
+    .navlink1 {
+    font-size: 6vw;
+        line-height: 1.2;
 
 
+}
 
+.navlink2 {
+    font-size: 7.5vw;
 
+}
+
+.navlink3 {
+    font-size: 4.8vw;
+    line-height: 1.2;
+}
+
+.navlink4 {
+    font-size: 4.6vw;
+}
+
+.navlink5 {
+    -webkit-text-stroke-width:1.6px;
+    font-size: 4.35vw;
+
+}
+
+.navlink6 {
+    font-size: 5.9vw;
+    line-height: 1.2;
+}
+
+    #menuClose {
+    font-size: 4vw;
+}
 
 
 
@@ -337,9 +450,8 @@ li {
 
 /* media querries just for SoMe Icons to be responsive flex-box */
 
-@media only screen and (min-width: 2100px) {
-    .SoMe_div {
-        bottom: 0;
+@media only screen and (min-width: 1400px) {
+    .SoMe_div_side {
         flex-direction: row;
     }
 }

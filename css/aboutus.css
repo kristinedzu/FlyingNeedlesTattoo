@@ -114,6 +114,7 @@
 
 .feedback_section {
     background-color: #E8EAEB;
+    height: 170px;
 }
 
 .feedback_container {
@@ -203,4 +204,8 @@
     color: #556476;
     font-size: 70px;
     opacity: 1;
+}
+
+.breadcrumb {
+    font-size: 55px;
 }

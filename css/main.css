@@ -35,8 +35,24 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    animation: fadein ease 5s;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 
 }
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 
 
 /*first logo fadeout*/
@@ -44,8 +60,10 @@ body {
 .logo-fadeout {
     animation: fadeOut ease 5s 1 forwards;
     width: 100%;
+}
 
-
+.web {
+    display: none;
 }
 
 @keyframes fadeOut {
@@ -178,7 +196,7 @@ li {
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     animation: fadein ease 5s;
     animation-delay: 4s;
     opacity: 0;
@@ -200,4 +218,96 @@ li {
 .SoMe {
     width: 12vw;
     margin: 7px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .web {
+        display: block;
+        position: absolute;
+        width: 55vw;
+        top: 6vw;
+        left: 24vw;
+    }
+
+
+    .logo-fadein {
+    width: 20%;
+}
+
+    .navlink1 {
+    font-size: 6vw;
+        line-height: 1.2;
+        background-image: url(../images/background-regular.png);
+        background-size: cover;
+        padding: 0 20px;
+
+
+}
+
+.navlink2 {
+    font-size: 7.5vw;
+    background-image: url(../images/background-regular.png);
+        background-size: cover;
+    padding: 0 20px;
+
+}
+
+.navlink3 {
+    font-size: 4.8vw;
+    line-height: 1.2;
+    background-image: url(../images/background-regular.png);
+        background-size: cover;
+    padding: 0 20px;
+}
+
+.navlink4 {
+    font-size: 4.6vw;
+    background-image: url(../images/background-regular.png);
+        background-size: cover;
+    padding: 0 20px 60px;
+}
+
+.navlink5 {
+    position: relative;
+    z-index: 2;
+    -webkit-text-stroke-width:1.6px;
+    font-size: 4.35vw;
+
+}
+
+.navlink6 {
+    font-size: 5.9vw;
+    line-height: 1.2;
+    background-image: url(../images/background-regular.png);
+        background-size: cover;
+    padding: 60px 13px;
+}
+
+
+    .fadein-container {
+    flex-direction: column;
+    justify-content: space-between;
+        align-items: stretch;
+        width: 100%;
+        background-image: url(../images/backMain4-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+}
+
+
+
+
+
+    .SoMe {
+    width: 3vw;
+    margin: 10px;
+}
 }

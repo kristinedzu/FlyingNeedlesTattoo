@@ -241,3 +241,7 @@ select {
     outline: none;
     border-radius: 0;
 }
+
+.breadcrumb {
+    font-size: 70px;
+}

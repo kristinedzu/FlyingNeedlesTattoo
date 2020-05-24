@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 
 
-/* scrolling down arrow */
+/* scrolling to the top arrow */
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -67,7 +67,7 @@ $(document).ready(function(){
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
 });
 
