@@ -1,3 +1,31 @@
+    .search-box {
+       width: 44px;
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+
+    }
+
+
+    .textbox {
+        width: 0px;
+        padding: 0;
+        transition: 0.6s;
+        background-color: transparent;
+
+
+    }
+
+
+    .search-box:hover > .textbox,
+    .textbox:focus {
+        width: 180px;
+        padding-left: 10px;
+         border: 1px solid #556476;
+    }
+
+
+
 .about_us {
     margin: 0;
     background-color: #E8EAEB;
