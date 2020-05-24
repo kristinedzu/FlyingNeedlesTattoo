@@ -40,33 +40,31 @@ body {
     padding: 8px 10px;
 }
 
-/*styling the search bar*/
-
 .search-box {
-    width: 44px;
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
+     width: 44px;
+     display: flex;
+     justify-content: flex-end;
+     cursor: pointer;
 
-}
-
-
-.textbox {
-    width: 0px;
-    padding: 0;
-    transition: 0.6s;
-    background-color: transparent;
+ }
 
 
-}
+ .textbox {
+     width: 0px;
+     padding: 0;
+     transition: 0.6s;
+ }
 
 
-.search-box:hover > .textbox,
-.textbox:focus {
-    width: 180px;
-    padding-left: 10px;
-    border: 1px solid #556476;
-}
+ .search-box:hover > .textbox,
+ .textbox:focus {
+     width: 180px;
+     padding-left: 10px;
+     border: 1px solid #556476;
+     background-color: #E8EAEB;
+ }
+
+
 
 
 /* this is the burger menu */
@@ -79,7 +77,6 @@ body {
     cursor: pointer;
     opacity: 0;
     z-index: 1;
-
 }
 
 #menu span {
@@ -239,15 +236,6 @@ li {
 
 @media only screen and (min-width: 768px) {
 
-<<<<<<< HEAD
-    .header {
-        height: 20%;
-    }
-
-    .logo_sub {
-        width: 20%;
-    }
-=======
 
     main {
         background-color: #E8EAEB;
@@ -265,7 +253,7 @@ li {
         left: 0;
     }
 
->>>>>>> origin/master
+
 
     .navigation_bar {
         width: 10%;
@@ -280,34 +268,38 @@ li {
         justify-content: center;
     }
 
-
     .search_icon {
-<<<<<<< HEAD
-        width: 64px;
-        padding-right: 20px;
-    }
-=======
     width: 5vw;
         max-width: 50px;
         padding-right: 0.7vw;
         margin-top: 18px;
+        padding:
 }
->>>>>>> origin/master
+
+    .textbox {
+        margin-top: 18px;
+
+     background-color: #556476;
+    }
+
+
+    .search-box:hover > .textbox,
+ .textbox:focus {
+     background-color: #2D2D2D;
+     opacity: 0.5;
+     height: 44px;
+     position: relative;
+     z-index: 100;
+ }
+
 
     #menu {
         margin-top: 28px;
 
     }
 
+
     #menu span {
-<<<<<<< HEAD
-        width: 53px;
-        height: 2.5px;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 8px;
-    }
-=======
     width: 37px;
     height: 2px;
         margin-bottom: 8px;
@@ -317,7 +309,7 @@ li {
     #menu span:nth-last-child(2) {
     width: 30px;
 }
->>>>>>> origin/master
+
 
     #menu input {
         display: block;
@@ -343,14 +335,10 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-<<<<<<< HEAD
-        background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.4237328506097561) 53%, rgba(255, 255, 255, 0) 100%);
-    }
-=======
         background-image: url(../images/back_breadcrumb-01.png);
-        background-size: contain;
-}
->>>>>>> origin/master
+         background-size: contain;
+    }
+
 
 
     main {
@@ -363,15 +351,12 @@ li {
 
 
     .main_content {
-<<<<<<< HEAD
-        width: 90%;
-=======
+
 width: 80%;
         margin-left: 10%;
         background-image: url(../images/background-regularWeb.png);
         background-size: contain;
         background-repeat: repeat;
->>>>>>> origin/master
     }
 
     .breadcrumb {
