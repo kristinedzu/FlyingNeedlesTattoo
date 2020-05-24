@@ -1,3 +1,4 @@
+
 .first_section {
     display: flex;
     flex-direction: column;
@@ -275,16 +276,202 @@ a {
 
 
 
+.inga_main {
+    display: none;
+}
 
+.header_web {
+    display: none;
+}
 
+.header_web_anders {
+    display: none;
+}
 
+.anders_main {
+    display: none;
+}
+
+.web_arrow {
+    display: none;
+}
+
+.anders_web {
+    display: none;
+}
+
+.artist_story_web {
+    display: none;
+}
+
+.web_gallery {
+    display: none;
+}
 
 /* media querries for artists page */
 
 @media only screen and (min-width: 768px) {
 
+    .photo_arrow {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .first_section {
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top:
+}
+
+    .artist_one {
+        width: 52%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 70px;
+    }
+
+    .first_header {
+        display: none;
+    }
+
+    .inga_main {
+        display: block;
+        width: 37vw;
+    }
+
+    .header_web {
+        display: block;
+        font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+        font-size: 80px;
+        color: #556476;
+    border-bottom: 9px solid #556476;
+        margin-bottom: 30px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .arrow_scroll {
+        display: none;
+    }
+
+    .web_arrow {
+        display: block;
+        width: 60px;
+        padding: 13px 13px 40px 13px;
+
+    }
+    .second_header {
+        display: none;
+    }
+
+    .anders_main {
+        display: block;
+        width: 40vw;
+        padding-left: 60px;
+    }
+
+    .header_web_anders {
+        display: block;
+        font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+        font-size: 80px;
+        color: #E8EAEB;
+    border-top: 9px solid #E8EAEB;
+        padding-left: 60px;
+        margin-top: 30px;
+        margin-right: 45%;
+}
+
+    a {
+        scroll-behavior: smooth;
+    }
+
+    /* Anders section starts */
+
+    #anders_section {
+        width: 70%;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    .anders_web {
+        display: block;
+        width: 20vw;
+    }
+
+    .artist_photo {
+        display: none;
+    }
+
+    .artist_div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-bottom: 60px;
+    }
+
+    .artist_text_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .artist_story {
+    display: none;
+}
+
+    .artist_story_web {
+    display: block;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+        padding: 0 40px;
+}
 
 
+    .booking_div {
+padding-top: 30px;
+    }
+
+    .anders_arrow {
+        margin-top: 90px;
+    }
+
+    .anders_web_div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .artist_gallery {
+        display: none;
+
+    }
+
+    .web_gallery {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        overflow: scroll;
+        width: 30%;
+
+    }
+
+    .image {
+        padding-top: 30px;
+        width: 80%;
+    }
 
 
 
