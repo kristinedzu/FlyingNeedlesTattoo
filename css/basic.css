@@ -289,9 +289,8 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(../images/background-regular.png);
-        background-size: cover;
-        background-repeat: repeat;
+        background-image: url(../images/back_breadcrumb-01.png);
+        background-size: contain;
 }
 
 
@@ -307,7 +306,7 @@ li {
     .main_content {
 width: 80%;
         margin-left: 10%;
-        background-image: url(../images/background-regular.png);
+        background-image: url(../images/background-regularWeb.png);
         background-size: contain;
         background-repeat: repeat;
     }
