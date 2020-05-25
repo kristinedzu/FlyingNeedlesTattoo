@@ -27,8 +27,9 @@
 
     <header class="header">
         <a href="../index.html"><img src="../images/logoSub-09.png" alt="logo" class=logo_sub></a>
+        <a href="../index.html"><img src="../images/logo-flyingneedles.png" class="logo-fadein" alt="fnt-logo-homepage"></a>
         <div class="navigation_bar">
-           <div class="search-box">
+            <div class="search-box">
                 <input class="textbox" type="text" name="search" />
                 <img src="../images/search-09.png" alt="SearchIcon" class="search_icon" />
             </div>
@@ -53,67 +54,94 @@
     </header>
 
     <main>
-       <div class="main_content">
+        <div class="main_content">
+            <div class="contact-container">
 
+                <section class="contact-info contactweb">
 
-        <section class="hours-info">
-            <h1 class="contacthead">OPENING HOURS</h1>
-            <p class="contactsubhead">Mon - Wed: 11.00 - 16.00<br>
-                Thu - Fri: 11.00 - 16.00<br>
-                (booking option after 16)</p>
-            <p class="hours-note">Saturday open by appointment, with booking
+                    <h1 class="contacthead">CONTACT</h1>
+                    <p class="contactsubhead">Address: Jyllands Allé 12<br>
+                        Tlf: 81 71 45 10<br>
+                        tattooflyingneedles@gmail.com</p>
+
+                </section>
+                <section class="hours-info">
+                    <h1 class="contacthead contactheadweb">OPENING HOURS</h1>
+                    <p class="contactsubhead subheadweb">Mon - Wed: 11.00 - 16.00<br>
+                        Thu - Fri: 11.00 - 16.00<br>
+                        (booking option after 16)</p>
+                    <p class="hours-note">Saturday open by appointment, with booking
+                        during the day and in the afternoon.</p>
+
+                    <hr id="line1">
+
+                </section>
+
+                <section class="contact-info">
+
+                    <h1 class="contacthead">CONTACT</h1>
+                    <p class="contactsubhead">Address: Jyllands Allé 12<br>
+                        Tlf: 81 71 45 10<br>
+                        tattooflyingneedles@gmail.com</p>
+
+                </section>
+
+            </div>
+            <p class="hours-webnote">Saturday open by appointment, with booking
                 during the day and in the afternoon.</p>
-            <hr id="line1">
-        </section>
 
-        <section class="contact-info">
-            <h1 class="contacthead">CONTACT</h1>
-            <p class="contactsubhead">Address: Jyllands Allé 12<br>
-                Tlf: 81 71 45 10<br>
-                tattooflyingneedles@gmail.com</p>
-        </section>
-        <div class="SoMe_div">
-            <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe></a>
-            <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe></a>
-            <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe></a>
-        </div>
-        <section class="contact-form">
-            <div class="write-contact">
-                <h1 class="writeus-header">WRITE US</h1>
-                <p class="writeus-note">Feel free to contact us and we’ll reply<br>
-                    as soon as possible.</p>
+            <div class="SoMe_div">
+
+                <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe></a>
+                <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe></a>
+                <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe></a>
             </div>
-            <hr id="line2">
-            <div class="text-fieldform">
-                <input type="text" id="name" name="name" placeholder="Name"><br>
-                <input type="text" id="email" name="email" placeholder="Email"><br>
-                <textarea id="message" name="message" placeholder="Message"></textarea><br>
-                <div class="btn">
-                    <button type="submit" class="cta">SEND</button>
-                </div>
+
+            <div class="map-container">
+                <section class="contact-form">
+
+                    <div class="write-contact">
+                        <h1 class="writeus-header">WRITE US</h1>
+                        <p class="writeus-note">Feel free to contact us and we’ll reply
+                            as soon as possible.</p>
+                    </div>
+                    <hr id="line2">
+                    <div class="text-fieldform">
+
+                        <input type="text" id="name" name="name" placeholder="Name"><br>
+
+                        <input type="text" id="email" name="email" placeholder="Email"><br>
+
+                        <textarea id="message" name="message" placeholder="Message"></textarea><br>
+
+
+                        <div class="btn">
+                            <button type="submit" class="cta">SEND</button>
+                        </div>
+
+                    </div>
+
+                </section>
+                <hr id="line3">
+                <div id="map"></div>
+                <script>
+                    mapboxgl.accessToken =
+                        'pk.eyJ1IjoiYmlseWFuYSIsImEiOiJjazdkMTd1N2swNWZoM2Vxazl2cDJ5NTBlIn0.uA2Ceq05BD-O1NfHH8LZIg';
+                    var monument = [10.190, 56.142];
+                    var map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/bilyana/ckaff3u4i0ev01jpksjs4ff5o',
+                        center: monument,
+                        zoom: 15
+                    });
+
+                    var marker = new mapboxgl.Marker({
+                            color: '#556476'
+                        })
+                        .setLngLat([10.190, 56.142])
+                        .addTo(map);
+                </script>
             </div>
-        </section>
-        <hr id="line3">
-        <div id="map"></div>
-        <script>
-            mapboxgl.accessToken =
-                'pk.eyJ1IjoiYmlseWFuYSIsImEiOiJjazdkMTd1N2swNWZoM2Vxazl2cDJ5NTBlIn0.uA2Ceq05BD-O1NfHH8LZIg';
-            var monument = [10.190, 56.142];
-            var map = new mapboxgl.Map({
-                container: 'map',
-                style: 'mapbox://styles/bilyana/ckaff3u4i0ev01jpksjs4ff5o',
-                center: monument,
-                zoom: 15
-            });
-
-            var marker = new mapboxgl.Marker({
-                    color: '#556476'
-                })
-                .setLngLat([10.190, 56.142])
-                .addTo(map);
-
-        </script>
-
         </div>
 
 
@@ -122,14 +150,14 @@
 
 
 
-   <div class="side_footer">
+        <div class="side_footer">
 
-           <h class="breadcrumb">CONTACTS</h>
-           <div class="SoMe_div_side">
-            <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
-            <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>
-            <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe_side></a>
-        </div>
+            <h class="breadcrumb">CONTACTS</h>
+            <div class="SoMe_div_side">
+                <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
+                <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>
+                <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe_side></a>
+            </div>
         </div>
     </main>
 
@@ -139,6 +167,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>

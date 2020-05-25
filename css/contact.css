@@ -4,8 +4,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
-
 }
 
 
@@ -13,8 +11,12 @@
     margin-top: 35px;
 }
 
+.contactweb {
+    display: none;
+}
+
 .contact-info {
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .contacthead {
@@ -50,6 +52,9 @@
     margin-bottom: 25px;
 }
 
+.hours-webnote {
+    display: none;
+}
 
 .writeus-header {
     font-size: 48px;
@@ -68,6 +73,8 @@
     font-weight: 400;
     color: #546375;
     line-height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 
 }
 
@@ -86,7 +93,9 @@
 
 .text-fieldform {
     padding-top: 25px;
+
 }
+
 #name {
     width: 320px;
     padding: 12px;
@@ -112,6 +121,8 @@
     resize: vertical;
     color: #5E6D7F;
 }
+
+
 
 input[type=text] {
     margin-bottom: 15px;
@@ -173,8 +184,6 @@ input[type=text] {
     margin: 10px auto;
     width: 125px;
     text-align: center;
-
-
 }
 
 
@@ -188,4 +197,234 @@ input[type=text] {
 
 .breadcrumb {
     font-size: 60px;
+}
+
+
+
+.logo-fadein {
+    display: none;
+}
+
+/* media querries for artists page */
+
+@media only screen and (min-width: 768px) {
+    main {
+        background-color: transparent;
+    }
+
+    .main_content {
+
+        width: 100%;
+        background-image: url(../images/background-regularWeb.png);
+        background-size: contain;
+        background-repeat: repeat;
+        margin-right: 9vw;
+    }
+
+    .logo_sub {
+        display: none;
+    }
+
+
+    .SoMe_div_side {
+        display: none;
+    }
+
+
+    .hours-info {
+        padding-left: 35px;
+        text-align: left;
+        width: 50%;
+
+    }
+
+    .hours-note {
+        display: none;
+    }
+
+    .hours-webnote {
+        font-size: 20px;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #E8EAEB;
+        text-align: center;
+        margin-top: 1.5vw;
+        display: block;
+
+    }
+
+    .contact-info {
+        display: none;
+
+    }
+
+    .contactweb {
+        display: block;
+        text-align: right;
+        padding-right: 35px;
+        width: 50%;
+        border-right: 2px solid #E8EAEB;
+    }
+
+    .contacthead {
+        text-align: right;
+    }
+
+    .contactsubhead {
+        text-align: right;
+
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+        margin-right: 3vw;
+    }
+
+    .contactheadweb {
+        text-align: left;
+    }
+
+    .subheadweb {
+        text-align: left;
+    }
+
+    #line1 {
+        display: none;
+    }
+
+
+    .map-container {
+        display: flex;
+        flex-direction: row;
+        height: 25vw;
+        width: 100%;
+        justify-content: center;
+        margin-top: 3vw;
+        margin-right: 3vw;
+
+
+    }
+
+    #map {
+        height: 300px;
+        width: 100%;
+        margin-top: 25px;
+        margin-right: 3vw;
+
+    }
+
+    #line3 {
+        display: none;
+
+    }
+
+    .contact-form {
+        background-color: #E8EAEB;
+        margin-top: 25px;
+        text-align: center;
+        width: 100%;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+
+
+    .write-contact {
+        background-image: url(../images/wings-opacity.png);
+        background-size: 220px;
+        background-position: top;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .writeus-note {
+        font-size: 16px;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        color: #546375;
+        line-height: 30px;
+
+    }
+
+    .writeus-header {
+        font-size: 38px;
+        color: #546375;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        padding-bottom: 10px;
+    }
+
+    #line2 {
+        display: none;
+    }
+
+    .text-fieldform {
+        padding-left: 10px;
+
+        border-left: 2px solid #546375;
+    }
+
+    #message {
+        width: 240px;
+        padding: 12px;
+        border: 0.5px solid #707070;
+        height: 100px;
+        background-color: #E8EAEB;
+        resize: vertical;
+        color: #5E6D7F;
+    }
+
+    #email {
+        width: 240px;
+        padding: 12px;
+        border: 0.5px solid #707070;
+        height: 30px;
+        background-color: #E8EAEB;
+        resize: vertical;
+        color: #5E6D7F;
+    }
+
+    #name {
+        width: 240px;
+        padding: 12px;
+        border: 0.5px solid #707070;
+        height: 30px;
+        background-color: #E8EAEB;
+        resize: vertical;
+        color: #5E6D7F;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 0.5px solid #546375;
+        border-radius: 25px;
+        padding: 3px;
+        margin: 16px auto;
+        width: 125px;
+        text-align: center;
+    }
+
+    .SoMe_div {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 3vw;
+        padding-top: 20px;
+
+    }
+
 }
