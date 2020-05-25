@@ -186,3 +186,24 @@ $(document).ready(function() {
 
     });
 
+
+/* aftercare sheet open on web */
+
+
+$(document).ready(function() {
+
+    $('#aftercare_sheet_web').hide(0),
+    $('#aftercareCLose_web').hide(0);
+
+    $('#aftercare_web').click(function() {
+                $('#aftercare_sheet_web').slideDown(400),
+                  $('#aftercare_web').hide(0),
+                    $('#aftercareCLose_web').fadeIn(0);
+            });
+
+    $('#aftercareCLose_web').click(function() {
+                $('#aftercare_sheet_web').slideUp(400),
+                  $('#aftercare_web').fadeIn(0),
+                    $('#aftercareCLose_web').hide(0);
+            });
+    });

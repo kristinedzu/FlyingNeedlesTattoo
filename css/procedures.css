@@ -211,3 +211,239 @@ p2 {
 .breadcrumb {
     font-size: 55px;
 }
+
+.web_section {
+    display: none;
+}
+
+/* media querries */
+
+@media only screen and (min-width: 768px) {
+    .products_section {
+        display: none;
+    }
+
+    .aftercare {
+        display: none;
+    }
+
+    .hygiene_section {
+        display: none;
+    }
+
+    .prepare {
+        display: none;
+    }
+
+    .web_section {
+    display: block;
+}
+
+    .prepare_white_box {
+        background-color: #E8EAEB;
+        width: 70%;
+        height: 8vw;
+    }
+
+    .prepare_parralax {
+        background-image: url(../images/proceduresWeb.jpg);
+        min-height: 700px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+}
+
+    .prepare_header_web {
+        color: #E8EAEB;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        padding: 8%;
+
+    }
+
+    .prepare_container1 {
+        background-color: #E8EAEB;
+        padding-right: 90px;
+        padding-top: 4%;
+        padding-left: 90px;
+    }
+
+    .prepare_subh_web {
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+        padding-top: 20px;
+}
+
+    .prepare_text_web {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        padding-bottom: 10px;
+        font-size: 18px;
+}
+
+
+
+    .hygiene_parralax {
+        background-image: url(../images/hygieneWeb-01.jpg);
+        min-height: 500px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hygiene_header_web {
+        color: #E8EAEB;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        padding: 8%;
+        text-align: end;
+    }
+
+    .hygiene_text_web {
+        background-color: #E8EAEB;
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        width: 100%;
+    padding-top: 20px;
+        padding-left: 8%;
+        padding-right: 15%;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 10vw;
+    }
+
+    .prepare_white_box2 {
+        background-color: #E8EAEB;
+        width: 100%;
+        height: 14vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 107px;
+
+    }
+
+    .aftercare_parralax {
+        background-image: url(../images/aftercare-web-01.png);
+        min-height: 700px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 30%;
+    }
+
+    .aftercare_text_web {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 18px;
+    }
+
+    .aftercare_header_web {
+        color: #E8EAEB;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+    }
+
+    #aftercare_web {
+        margin-top: 30px;
+    }
+
+    #aftercareCLose_web {
+        margin-top: 30px;
+    }
+
+    #aftercare_sheet_web {
+        width: 100%;
+    }
+
+    .products_web {
+        width: 80%;
+        background-color: #E8EAEB;
+        padding-top: 8vw;
+    }
+
+    .products_header_web {
+        text-align: end;
+        font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+        border-bottom: 9px solid #556476;
+        margin-left: 65%;
+        padding-right: 30px;
+    }
+
+    .prepare_white_box3 {
+        background-color: #E8EAEB;
+        width: 100%;
+        height: 8vw;
+    }
+
+    .products_text_web {
+    font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+        margin-left: 60%;
+        background-color: #E8EAEB;
+        padding: 30px;
+        text-align: justify;
+
+    }
+
+    .additional {
+        font-size: 16px;
+    }
+
+
+    .products_parralax {
+        background-image: url(../images/productsWeb.jpg);
+        min-height: 500px;
+        width: 80%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .products_text_parralax {
+        background-color: #E8EAEB;
+        margin-left: 60%;
+        font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+
+
+}
+
+
+
