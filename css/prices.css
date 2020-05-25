@@ -245,3 +245,190 @@ select {
 .breadcrumb {
     font-size: 70px;
 }
+
+.deposit_web {
+    display: none;
+}
+
+.deposit_text_web {
+    display: none;
+}
+
+.booking_form {
+    display: none;
+}
+
+.ornament {
+    display: none;
+}
+
+.booking_header_web {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+
+    .main_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .prices {
+        width: 60%;
+        padding-top: 0;
+        text-align: end;
+    }
+
+    .booking_div {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .gift_div {
+        width: 60%;
+        margin-top: -520px;
+    }
+
+    .ornament {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .header_photo {
+        background: transparent;
+        font-size: 60px;
+        margin-top: -90PX;
+    }
+
+    .prices_header {
+        font-size: 35px;
+        text-align: center;
+        margin-top: -129px;
+    }
+
+    .prices_web {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .prices_text {
+        text-align: end;
+        padding: 0 20px;
+    }
+
+    .text {
+        text-align: left;
+        width: 80%;
+
+    }
+
+
+
+    .subheader {
+        margin: 0 15px;
+        text-align: end;
+    }
+
+    .top_line {
+        border-top: none;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .left_web {
+        border-right: 1px solid #2D2D2D;
+    }
+
+    .deposit {
+        display: none;
+    }
+
+    .main_content {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    /* giftcard section */
+
+    .gift_div {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+
+    .deposit_web {
+        display: block;
+        font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #556476;
+    }
+
+    .deposit_text_web {
+        display: block;
+        font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #556476;
+        text-align: center;
+        padding: 10px 90px;
+    }
+
+    .giftcard {
+        width: 55%;
+    }
+
+    #giftcard_form {
+        margin-top: 160px;
+    padding-bottom: 140px;
+    width: 54%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .giftcard_header {
+        padding-top: 45px;
+    }
+
+    .btn1 {
+        margin-top: 0;
+    }
+
+
+    /* booking form */
+
+    .booking_form {
+        display: block;
+    width: 100%;
+    background-color: #556476;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+    padding-top: 35px;
+}
+
+    .btn {
+        display: none;
+    }
+
+    .booking_header_web {
+        display: block;
+        font-family: azo-sans-web, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #E8EAEB;
+    font-size: 35px;
+    margin-top: 18%;
+    }
+
+
+}

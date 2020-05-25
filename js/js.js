@@ -132,7 +132,7 @@ $(document).ready(function() {
     $('#giftcard_form').hide(0);
 
     $('#order').click(function() {
-                $('#giftcard_form').fadeIn(200),
+                $('#giftcard_form').fadeIn(0),
                 $('.btn1').hide(0);
             });
 
