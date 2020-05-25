@@ -51,30 +51,41 @@
 
     <main>
 
+
         <div class="main_content">
 
         <section class="prices">
+           <img src="../images/symorn1-01.png" alt="Ornament" class="ornament">
             <div class="header_photo">
                 <h1 class="prices_header">PRICES</h1>
             </div>
+            <div class="prices_web">
+            <div>
             <h2 class="subheader">ARTIST</h2>
-            <p class="prices_text">
+            <p class="prices_text left_web">
                 Small tattoos, under 30min work - 500 kr,<br>
                 Fixed hourly rate 700 kr,<br>
                 Full day session (6 hours) 3600 kr,<br>
                 Laser prices - from 300 kr,
             </p>
+            </div>
+            <div>
             <h2 class="subheader top_line">APPRENTICE</h2>
             <p class="prices_text text">
                 Small tattoos (approx 5x5cm, 1 color/needle) - 400 kr,<br>
                 Fixed hourly rate 500 kr,<br>
                 Full day session (6 hours) 2500 kr,
             </p>
+            </div>
+            </div>
             <p1 class="deposit">Deposit of 300, at a time of booking</p1>
         </section>
 
-        <div class="booking_div">
 
+
+
+
+        <div class="booking_div">
             <form action="#" id="booking_form">
                 <button type="button" class="close_book" id="close_book">&#x2715;</button><br>
                 <input type="text" placeholder="Full name" class="input_book" required><br>
@@ -122,14 +133,74 @@
                 </div>
             </form>
 
+           <h1 class="booking_header_web">BOOKING FORM</h1>
+
             <p class="booking_text">Please fill out this form before booking.</p>
+
+
+            <form action="#" class="booking_form">
+
+                <input type="text" placeholder="Full name" class="input_book" required><br>
+                <label for="" class="book_label">Style:</label><br>
+                <input list="browsers" name="browsers" class="input_book">
+                <datalist id="browsers">
+                    <option value="Realistic">
+                    <option value="Oldschool/Neotraditional">
+                    <option value="Whipshading">
+                    <option value="Dotwork">
+                    <option value="Blackwork/Lines">
+                    <option value="Color">
+                    <option value="Color splashes/Watercolor">
+                    <option value="Mix">
+                </datalist><br>
+
+                <select id="styles" name="styles" class="input_book" required>
+                    <option value="Realistic">Realistic</option>
+                    <option value="Oldschool/Neotraditional">Oldschool/Neotraditional</option>
+                    <option value="Whipshading">Whipshading</option>
+                    <option value="Dotwork">Dotwork</option>
+                    <option value="Blackwork/Lines" class="option">Blackwork/Lines</option>
+                    <option value="Color">Color</option>
+                    <option value="Color splashes/Watercolor">Color splashes/Watercolor</option>
+                    <option value="Mix">Mix</option>
+                </select><br>
+
+                <input type="email" placeholder="Email" class="input_book" required><br>
+                <input type="text" placeholder="Size (cm)" class="input_book" required><br>
+                <label for="" class="book_label">Available time:</label><br>
+                <input type="date" class="input_book" required><br>
+
+                <label for="" class="book_label">Artists:</label><br>
+                <select id="artists" name="artists" class="input_book" required>
+                    <option value="Anders">Anders</option>
+                    <option value="Inga">Inga</option>
+                </select><br>
+
+                <input type="text" placeholder="Placement" class="input_book" required><br>
+                <input type="file" id="img" name="img" accept="image/*" class="input_book"><br>
+                <input type="text" placeholder="Comment" class="input_book comment"><br>
+
+                <div class="btn2">
+                    <button type="submit" class="cta2 submit">SEND</button>
+                </div>
+            </form>
+
+
+
             <div class="btn" id="book">
+
                 <button type="submit" class="cta">BOOK</button>
             </div>
         </div>
 
+
+
         <div class="gift_div">
-            <h2 class="subheader">GIFT CARDS</h2>
+
+           <p class="deposit_web">Deposit of 300, at a time of booking*</p>
+           <p1 class="deposit_text_web">* The deposit will be counted from the price after the finished job, or withdrawal via absence. Moving or cancelling the appointments have to be done minimum 48 hours before the appointment.</p1>
+
+            <h2 class="subheader giftcard_header">GIFT CARDS</h2>
             <img src="../images/giftCard.png" alt="GiftCardImage" id="giftcard" class="giftcard">
 
             <form action="#" id="giftcard_form">
