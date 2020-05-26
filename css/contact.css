@@ -205,6 +205,10 @@ input[type=text] {
     display: none;
 }
 
+.logo_web {
+    display: none;
+}
+
 /* media querries for artists page */
 
 @media only screen and (min-width: 768px) {
@@ -214,11 +218,8 @@ input[type=text] {
 
     .main_content {
 
-        width: 100%;
-        background-image: url(../images/background-regularWeb.png);
-        background-size: contain;
-        background-repeat: repeat;
-        margin-right: 9vw;
+        width: 90%;
+        margin-left: 0;
     }
 
     .logo_sub {
@@ -279,7 +280,6 @@ input[type=text] {
     .contact-container {
         display: flex;
         flex-direction: row;
-        margin-right: 3vw;
     }
 
     .contactheadweb {
@@ -298,20 +298,20 @@ input[type=text] {
     .map-container {
         display: flex;
         flex-direction: row;
-        height: 25vw;
         width: 100%;
         justify-content: center;
         margin-top: 3vw;
-        margin-right: 3vw;
 
 
     }
 
     #map {
         height: 300px;
-        width: 100%;
+        width: 520px;
         margin-top: 25px;
-        margin-right: 3vw;
+        margin-right: 30px;
+        padding-left: 30px;
+        border-left: 2px solid #E8EAEB;
 
     }
 
@@ -323,27 +323,21 @@ input[type=text] {
     .contact-form {
         background-color: #E8EAEB;
         margin-top: 25px;
-        text-align: center;
-        width: 100%;
-        margin-right: 10px;
         display: flex;
         flex-direction: row;
         height: 300px;
-        justify-content: center;
-        padding-left: 20px;
-        padding-right: 10px;
+        margin-right: 30px;
     }
 
 
 
     .write-contact {
+        width: 260px;
         background-image: url(../images/wings-opacity.png);
         background-size: 220px;
         background-position: top;
         background-repeat: no-repeat;
         text-align: center;
-        padding-right: 5px;
-        padding-left: 5px;
 
     }
 
@@ -371,23 +365,25 @@ input[type=text] {
     }
 
     .text-fieldform {
-        padding-left: 10px;
-
+        width: 260px;
         border-left: 2px solid #546375;
     }
 
     #message {
-        width: 240px;
+        width: 92%;
         padding: 12px;
         border: 0.5px solid #707070;
         height: 100px;
         background-color: #E8EAEB;
         resize: vertical;
         color: #5E6D7F;
+        font-family: azo-sans-web, sans-serif;
+        font-style: normal;
+        font-weight: 400;
     }
 
     #email {
-        width: 240px;
+        width: 92%;
         padding: 12px;
         border: 0.5px solid #707070;
         height: 30px;
@@ -397,7 +393,7 @@ input[type=text] {
     }
 
     #name {
-        width: 240px;
+        width: 92%;
         padding: 12px;
         border: 0.5px solid #707070;
         height: 30px;
@@ -422,9 +418,20 @@ input[type=text] {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-right: 3vw;
-        padding-top: 20px;
+        padding-top: 4vw;
 
     }
 
+    .logo_web {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .mapboxgl-ctrl-logo {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
 }
