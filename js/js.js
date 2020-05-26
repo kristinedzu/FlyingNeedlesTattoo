@@ -251,3 +251,104 @@ $(document).ready(function () {
             $('#aftercareCLose_web').hide(0);
     });
 });
+
+
+
+/* artists phot gallery */
+
+
+$(document).ready(function () {
+
+$('.anders1').click(function() {
+                $(".anders1").toggleClass("BigPhoto");
+            });
+    $('.anders2').click(function() {
+                $(".anders2").toggleClass("BigPhoto");
+            });
+    $('.anders3').click(function() {
+                $(".anders3").toggleClass("BigPhoto");
+            });
+    $('.anders4').click(function() {
+                $(".anders4").toggleClass("BigPhoto");
+            });
+    $('.anders5').click(function() {
+                $(".anders5").toggleClass("BigPhoto");
+            });
+    $('.anders6').click(function() {
+                $(".anders6").toggleClass("BigPhoto");
+            });
+    $('.anders7').click(function() {
+                $(".anders7").toggleClass("BigPhoto");
+            });
+    $('.anders8').click(function() {
+                $(".anders8").toggleClass("BigPhoto");
+            });
+    $('.anders9').click(function() {
+                $(".anders9").toggleClass("BigPhoto");
+            });
+    $('.anders10').click(function() {
+                $(".anders10").toggleClass("BigPhoto");
+            });
+    $('.anders11').click(function() {
+                $(".anders11").toggleClass("BigPhoto");
+            });
+    $('.anders12').click(function() {
+                $(".anders12").toggleClass("BigPhoto");
+            });
+    $('.anders13').click(function() {
+                $(".anders13").toggleClass("BigPhoto");
+            });
+    $('.anders14').click(function() {
+                $(".anders14").toggleClass("BigPhoto");
+            });
+    $('.anders15').click(function() {
+                $(".anders15").toggleClass("BigPhoto");
+            });
+    $('.inga1').click(function() {
+                $(".inga1").toggleClass("BigPhoto2");
+            });
+    $('.inga2').click(function() {
+                $(".inga2").toggleClass("BigPhoto2");
+            });
+    $('.inga3').click(function() {
+                $(".inga3").toggleClass("BigPhoto2");
+            });
+    $('.inga4').click(function() {
+                $(".inga4").toggleClass("BigPhoto2");
+            });
+    $('.inga5').click(function() {
+                $(".inga5").toggleClass("BigPhoto2");
+            });
+    $('.inga6').click(function() {
+                $(".inga6").toggleClass("BigPhoto2");
+            });
+    $('.inga7').click(function() {
+                $(".inga7").toggleClass("BigPhoto2");
+            });
+    $('.inga8').click(function() {
+                $(".inga8").toggleClass("BigPhoto2");
+            });
+    $('.inga9').click(function() {
+                $(".inga9").toggleClass("BigPhoto2");
+            });
+    $('.inga10').click(function() {
+                $(".inga10").toggleClass("BigPhoto2");
+            });
+    $('.inga11').click(function() {
+                $(".inga11").toggleClass("BigPhoto2");
+            });
+    $('.inga12').click(function() {
+                $(".inga12").toggleClass("BigPhoto2");
+            });
+    $('.inga13').click(function() {
+                $(".inga13").toggleClass("BigPhoto2");
+            });
+    $('.inga14').click(function() {
+                $(".inga14").toggleClass("BigPhoto2");
+            });
+    $('.inga15').click(function() {
+                $(".inga15").toggleClass("BigPhoto2");
+            });
+
+
+    });
