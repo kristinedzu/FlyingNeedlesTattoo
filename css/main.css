@@ -124,6 +124,8 @@ li {
 
 
 .navlink1 {
+    display: block;
+    position: relative;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -132,8 +134,29 @@ li {
     -webkit-text-stroke-color: white;
     font-size: 13vw;
     text-decoration: none;
+}
 
+.navlink1:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
 
+.navlink1:Hover:before {
+    width: 120%;
+}
+
+.navlink1:hover {
+    opacity: 0.5;
 }
 
 .navlink2 {
@@ -146,6 +169,7 @@ li {
     line-height: 1;
 }
 
+
 .navlink3 {
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
@@ -157,6 +181,8 @@ li {
 }
 
 .navlink4 {
+    display: block;
+    position: relative;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -166,7 +192,34 @@ li {
     line-height: 1.2;
 }
 
+.navlink4:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+.navlink4:Hover:before {
+    width: 120%;
+}
+
+.navlink4:hover {
+    opacity: 0.5;
+}
+
+
+
 .navlink5 {
+    display: block;
+    position: relative;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -177,18 +230,67 @@ li {
     text-decoration: none;
     background-image: url(../images/menuOpacity-01.png);
     padding: 0 4px;
-    line-height: 1.7;
+    line-height: 1.3;
+}
+
+.navlink5:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+.navlink5:Hover:before {
+    width: 120%;
+}
+
+.navlink5:hover {
+    opacity: 0.5;
 }
 
 .navlink6 {
+    display: block;
+    position: relative;
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
     font-weight: 900;
     color: white;
     font-size: 12.5vw;
     text-decoration: none;
-    line-height: 1.3;
+    line-height: 1.2;
 }
+
+.navlink6:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+.navlink6:Hover:before {
+    width: 120%;
+}
+
+.navlink6:hover {
+    opacity: 0.5;
+}
+
 
 
 /*footer*/
@@ -221,6 +323,232 @@ li {
 }
 
 
+#linkAnders {
+    display: inline-block;
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    line-height: 5;
+    margin-right: 40px;
+    position: relative;
+}
+
+#linkAnders:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6s;
+    -o-transition: width 0.6s;
+    transition: width 0.6s;
+}
+
+#linkAnders:Hover:before {
+    width: 120%;
+}
+
+#linkAnders:hover {
+    opacity: 0.8;
+}
+
+
+
+
+#linkInga {
+   display: inline-block;
+    position: relative;
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    line-height: 5;
+   margin-left: 40px;
+}
+
+#linkInga:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+#linkInga:Hover:before {
+    width: 120%;
+}
+
+#linkInga:hover {
+    opacity: 0.8;
+}
+
+#linkPrepare {
+    display: inline-block;
+    position: relative;
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    line-height: 3.9;
+}
+
+#linkPrepare:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+#linkPrepare:Hover:before {
+    width: 120%;
+}
+
+#linkPrepare:hover {
+    opacity: 0.8;
+}
+
+
+#linkHygiene {
+    display: inline-block;
+    position: relative;
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    line-height: 3.9;
+    margin-left: 20px;
+}
+
+#linkHygiene:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+#linkHygiene:Hover:before {
+    width: 120%;
+}
+
+#linkHygiene:hover {
+    opacity: 0.8;
+}
+
+
+#linkAftercare {
+    display: inline-block;
+    position: relative;
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    line-height: 3.9;
+    margin-left: 20px;
+}
+
+#linkAftercare:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+#linkAftercare:Hover:before {
+    width: 120%;
+}
+
+#linkAftercare:hover {
+    opacity: 0.8;
+}
+
+
+#linkProducts {
+    display: inline-block;
+    position: relative;
+    font-family: ff-meta-correspondence-web-p,ans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    line-height: 3.9;
+    margin-left: 20px;
+}
+
+#linkProducts:before {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: -10%;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6;
+    -o-transition: width 0.6;
+    transition: width 0.6;
+}
+
+#linkProducts:Hover:before {
+    width: 120%;
+}
+
+#linkProducts:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 768px) {
 
@@ -239,6 +567,7 @@ li {
 
     .logo-fadein {
     width: 20%;
+        padding-left: 20px;
 }
 
     .navlink1 {
@@ -271,14 +600,15 @@ li {
     font-size: 4.6vw;
     background-image: url(../images/background-regular.png);
         background-size: cover;
-    padding: 0 20px 60px;
+    padding: 0 20px;
 }
 
 .navlink5 {
-    position: relative;
-    z-index: 2;
+    background-image: url(../images/background-regular.png);
+        background-size: cover;
     -webkit-text-stroke-width:1.6px;
     font-size: 4.35vw;
+    padding: 0 20px;
 
 }
 
@@ -287,7 +617,7 @@ li {
     line-height: 1.2;
     background-image: url(../images/background-regular.png);
         background-size: cover;
-    padding: 60px 13px;
+    padding: 0 13px;
 }
 
 
@@ -302,12 +632,9 @@ li {
 
 }
 
-
-
-
-
     .SoMe {
     width: 3vw;
     margin: 10px;
 }
+
 }
