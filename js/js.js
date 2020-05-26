@@ -30,31 +30,62 @@ $(document).ready(function () {
         $('#linkProducts').hide(0);
 
     $('#subLink').mouseenter(function () {
-        $('#linkAnders').fadeIn(0);
-        $('#linkInga').fadeIn(0);
-        $('.navlink2').fadeOut(0)
+        $('#linkAnders').fadeIn(0),
+        $('#linkInga').fadeIn(0),
+        $('.navlink2').fadeOut(0);
     });
     $('#subLink').mouseleave(function () {
-        $('#linkAnders').fadeOut(0);
-        $('#linkInga').fadeOut(0);
-        $('.navlink2').fadeIn(0)
+        $('#linkAnders').fadeOut(0),
+        $('#linkInga').fadeOut(0),
+        $('.navlink2').fadeIn(0);
     });
 
     $('#subLink2').mouseenter(function () {
-        $('#linkPrepare').fadeIn(0);
-        $('#linkHygiene').fadeIn(0);
-        $('#linkAftercare').fadeIn(0);
-        $('#linkProducts').fadeIn(0);
-        $('.navlink3').fadeOut(0)
+        $('#linkPrepare').fadeIn(0),
+        $('#linkHygiene').fadeIn(0),
+        $('#linkAftercare').fadeIn(0),
+        $('#linkProducts').fadeIn(0),
+        $('.navlink3').fadeOut(0);
     });
     $('#subLink2').mouseleave(function () {
-        $('#linkPrepare').fadeOut(0);
-        $('#linkHygiene').fadeOut(0);
-        $('#linkAftercare').fadeOut(0);
-        $('#linkProducts').fadeOut(0);
-        $('.navlink3').fadeIn(0)
+        $('#linkPrepare').fadeOut(0),
+        $('#linkHygiene').fadeOut(0),
+        $('#linkAftercare').fadeOut(0),
+        $('#linkProducts').fadeOut(0),
+        $('.navlink3').fadeIn(0);
     });
 
+    /* to make the sublinks work on a current page */
+
+    $('#linkInga').click(function () {
+        $('#navmenu').hide(0),
+        $('main').show(0);
+    });
+
+    $('#linkAnders').click(function () {
+        $('#navmenu').hide(0),
+        $('main').show(0);
+    });
+
+    $('#linkPrepare').click(function () {
+        $('#navmenu').hide(0),
+        $('main').show(0);
+    });
+
+    $('#linkHygiene').click(function () {
+        $('#navmenu').hide(0),
+        $('main').show(0);
+    });
+
+    $('#linkAftercare').click(function () {
+        $('#navmenu').hide(0),
+        $('main').show(0);
+    });
+
+    $('#linkProducts').click(function () {
+        $('#navmenu').hide(0),
+        $('main').show(0);
+    });
 
 });
 
@@ -82,11 +113,6 @@ $(document).ready(function () {
         swipe: true,
     });
 });
-
-
-
-/* scrolling to the top arrow */
-
 
 
 

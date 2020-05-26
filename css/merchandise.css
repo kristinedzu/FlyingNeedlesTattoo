@@ -220,7 +220,7 @@
     }
 
     .stickers-web {
-        width: 1000px;
+        width: 100%;
         height: 450px;
         display: block;
         margin-left: 4vw;
@@ -253,7 +253,7 @@
     }
 
     .badges-web {
-        width: 970px;
+        width: 94.1%;
         height: 230px;
         display: block;
         margin-left: 4vw;
@@ -270,5 +270,13 @@
 
     .badges-section {
         margin-right: 12vw;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    .breadcrumb {
+        font-size: 50px;
     }
 }
