@@ -212,13 +212,37 @@ p2 {
     font-size: 55px;
 }
 
-.web_section {
+.prepare_web {
+    display: none;
+}
+
+.prepare_white_box2 {
+    display: none;
+}
+
+.hygiene {
+    display: none;
+}
+
+.aftercare_web {
+    display: none;
+}
+
+.products_web {
+    display: none;
+}
+
+.products_parralax {
     display: none;
 }
 
 /* media querries */
 
 @media only screen and (min-width: 768px) {
+    .prepare_web {
+    display: block;
+}
+
     .products_section {
         display: none;
     }
@@ -231,11 +255,23 @@ p2 {
         display: none;
     }
 
-    .prepare {
+    .prepare_content {
         display: none;
     }
 
-    .web_section {
+    .hygiene {
+    display: block;
+}
+
+    .aftercare_web {
+    display: block;
+}
+
+    .products_web {
+    display: block;
+}
+
+    .products_parralax {
     display: block;
 }
 
@@ -329,9 +365,10 @@ p2 {
     }
 
     .prepare_white_box2 {
+        display: block;
         background-color: #E8EAEB;
         width: 100%;
-        height: 14vw;
+        height: 220px;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
