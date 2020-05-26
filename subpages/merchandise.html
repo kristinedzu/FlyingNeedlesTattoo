@@ -12,6 +12,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
     <script type="text/javascript" src="../js/slick.min.js"></script>
     <script type="text/javascript" src="../js/js.js"></script>
     <link rel="stylesheet" href="../css/basic.css">
@@ -52,47 +53,53 @@
 
 
     <main>
-      <div class="main_content">
+        <div class="main_content">
 
 
 
-        <section class="poster-section">
+            <section class="poster-section">
 
-            <h1 class="posters-header">POSTERS</h1>
-            <img src="../images/posters.png" class="posters-image" alt="posters-image">
-            <p class="shop-note">*Come to the store to see more.</p>
-        </section>
+                <h1 class="posters-header">POSTERS</h1>
+                <img src="../images/posters.png" class="posters-image" alt="posters-image">
+                <div class="parallax">
+                    <img src="../images/posters-web.png" class="posters-image poster-web" alt="posters-image">
+                </div>
+                <p class="shop-note">*Come to the store to see more.</p>
+                <img src="../images/arrowDown-01.png" alt="ArrowDown" class="arrow_scroll web_arrow anders_arrow">
+            </section>
+            <section class="bookmarks-section">
+                <h1 class="bookmarks-header">BOOKMARKS</h1>
+                <img src="../images/bookmarks.png" class="bookmarks-image" alt="bookmarks-image">
+                <div class="parallax">
+                    <img src="../images/bookmarks-web.png" class="bookmarks-image bookmarks-web" alt="bookmarks-image">
+                </div>
+            </section>
+            <section class="stickers-section">
 
-        <section class="bookmarks-section">
-            <h1 class="bookmarks-header">BOOKMARKS</h1>
-            <img src="../images/bookmarks.png" class="bookmarks-image" alt="bookmarks-image">
-        </section>
-        <section class="stickers-section">
-            <h1 class="stickers-header">STICKERS</h1>
-            <img src="../images/stickers.png" class="stickers-image" alt="stickers-image">
-        </section>
-        <section class="badges-section">
-            <h1 class="badges-header">BADGES</h1>
-            <img src="../images/badges.jpg" class="badges-image" alt="badges-image">
-        </section>
+                <h1 class="stickers-header">STICKERS</h1>
+                <img src="../images/stickers.png" class="stickers-image" alt="stickers-image">
+                <div class="parallax">
+                    <img src="../images/stickers-web.png" class="stickers-image stickers-web" alt="stickers-image">
+                </div>
+            </section>
+
+
+            <section class="badges-section">
+                <h1 class="badges-header">BADGES</h1>
+                <img src="../images/badges.jpg" class="badges-image" alt="badges-image">
+                <img src="../images/badges-web.png" class="badges-image badges-web" alt="badges-image">
+            </section>
 
         </div>
-
-
-
-
-
-
-
 
         <div class="side_footer">
 
-           <h class="breadcrumb">MERCHANDISE</h>
-           <div class="SoMe_div_side">
-            <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
-            <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>
-            <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe_side></a>
-        </div>
+            <h class="breadcrumb">MERCHANDISE</h>
+            <div class="SoMe_div_side">
+                <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
+                <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>
+                <a href="https://www.youtube.com/channel/UCERSeRJLZCGp3_uAN7riaSg"><img src="../images/youtube.png" alt="YoutubeIcon" class=SoMe_side></a>
+            </div>
         </div>
 
     </main>
@@ -106,8 +113,50 @@
 
     </footer>
 
+    <script>
+        var images = document.querySelectorAll('.bookmarks-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 1.8,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+
+        var images = document.querySelectorAll('.poster-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 1.8,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+
+        var images = document.querySelectorAll('.stickers-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 2.5,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+        var images = document.querySelectorAll('.badges-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 1,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+    </script>
 
 
-</body>
-
-</html>
+</body></html>

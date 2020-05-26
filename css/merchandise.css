@@ -12,6 +12,9 @@
 
 }
 
+.poster-web {
+    display: none;
+}
 
 .posters-header {
     font-family: ff-meta-correspondence-web-p, sans-serif;
@@ -23,6 +26,9 @@
 
 }
 
+.arrow_scroll {
+    display: none;
+}
 
 .shop-note {
     font-size: 16px;
@@ -32,13 +38,16 @@
     text-align: center;
     padding-top: 6px;
 
-
 }
 
 .bookmarks-image {
     width: 100%;
 }
 
+
+.bookmarks-web {
+    display: none;
+}
 
 .bookmarks-header {
     font-family: ff-meta-correspondence-web-p, ans-serif;
@@ -85,6 +94,10 @@
     width: 100%;
 }
 
+.stickers-web {
+    display: none;
+}
+
 .stickers-section {
     background: #E8EAEB;
 }
@@ -106,6 +119,10 @@
     width: 100%;
 }
 
+.badges-web {
+    display: none;
+}
+
 .badges-section {
     background-color: #E8EAEB;
     padding-bottom: 50px;
@@ -113,5 +130,145 @@
 }
 
 .breadcrumb {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+
+/* media querries for merchandise page */
+
+@media only screen and (min-width: 768px) {
+
+    .parallax {
+        overflow: hidden;
+    }
+
+    /*styling the poster section*/
+    .posters-image {
+        display: none;
+    }
+
+    .poster-section {
+        margin-right: 12vw;
+        padding-top: 6%;
+    }
+
+    .poster-web {
+        width: 67vw;
+        margin-top: 2%;
+        display: block;
+        margin-left: 1.5vw;
+
+    }
+
+
+    .posters-header {
+        font-size: 35px;
+        padding-left: 15vw;
+        text-align: left;
+        margin-left: 4vw;
+
+    }
+
+
+    .shop-note {
+        text-align: left;
+        margin-left: 6.5vw;
+
+
+    }
+
+    .web_arrow {
+        display: block;
+        width: 60px;
+        padding: 0.5px 13px 40px 13px;
+        background-color: #E8EAEB;
+        margin-left: 37vw;
+    }
+
+
+    /*styling the bookmarks section*/
+    .bookmarks-section {
+        margin-right: 12vw;
+        padding-top: 5px;
+    }
+
+    .bookmarks-image {
+        display: none;
+    }
+
+    .bookmarks-web {
+        width: 1200px;
+        height: 350px;
+        margin-left: 4vw;
+        display: block;
+    }
+
+
+    .bookmarks-header {
+        border-bottom-style: none;
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 6vw;
+
+
+    }
+
+
+    /*styling the stickers section*/
+    .stickers-image {
+        display: none;
+    }
+
+    .stickers-web {
+        width: 1000px;
+        height: 450px;
+        display: block;
+        margin-left: 4vw;
+
+    }
+
+
+
+    .stickers-section {
+        margin-right: 12vw;
+    }
+
+    .stickers-header {
+        border-bottom: none;
+        margin-left: 6vw;
+        margin-bottom: 5px;
+        text-align: left;
+
+
+    }
+
+    .stickers-header:after {
+        border-bottom-style: none;
+
+    }
+
+    /*styling the badges section*/
+    .badges-image {
+        display: none;
+    }
+
+    .badges-web {
+        width: 970px;
+        height: 230px;
+        display: block;
+        margin-left: 4vw;
+    }
+
+    .badges-header {
+        border-bottom-style: none;
+        margin-bottom: 5px;
+        margin-left: 6vw;
+        padding: 40px 10px 0;
+
+
+    }
+
+    .badges-section {
+        margin-right: 12vw;
+    }
 }
