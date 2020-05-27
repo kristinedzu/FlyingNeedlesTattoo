@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Artists of the Flying Needles Tattoo</title>
-    <meta name="description" content="WRITE A UNIQUE CONTENT DESCRIPTION">
+    <title>Flying Needles Tattoo prices</title>
+    <meta name="description" content="we have created a price list for you to get you better understanding of the tattoo price. But keep in mind, that every tattoo price is individual and it will be announced after knowing all the details">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="https://use.typekit.net/lhq4rzb.css">
@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="../css/basic.css">
     <link rel="stylesheet" href="../css/prices.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-    <script type="text/javascript" src="../js/js.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/js.js"></script>
 </head>
 
 <body id="body">
@@ -36,7 +36,7 @@
                     <span></span>
                     <span class="third_span"></span>
                     <ul id="navmenu">
-                        <button type="button" id="menuClose">&#x2715;</button>
+                        <li id="menuClose">&#x2715;</li>
                         <li><a href="../subpages/aboutus.html" class="navlink1">ABOUT US</a></li>
                         <li id="subLink"><a href="#" class="navlink2">ARTISTS</a><a href="../subpages/artists.html#anders_section" id="linkAnders">ANDERS</a><a href="../subpages/artists.html#inga_section" id="linkInga">INGA</a></li>
                         <li id="subLink2"><a href="#" class="navlink3">PROCEDURES</a><a href="../subpages/procedures.html#prepare_section" id="linkPrepare">HOW TO PREPARE</a><a href="../subpages/procedures.html#hygiene_section" id="linkHygiene">HYGIENE</a><a href="../subpages/procedures.html#aftercare_section" id="linkAftercare">AFTERCARE</a><a href="../subpages/procedures.html#products_section" id="linkProducts">PRODUCTS WE USE</a></li>
@@ -57,7 +57,7 @@
         <section class="prices">
            <img src="../images/symorn1-01.png" alt="Ornament" class="ornament">
             <div class="header_photo">
-                <h1 class="prices_header">PRICES</h1>
+                <h2 class="prices_header">PRICES</h2>
             </div>
             <div class="prices_web">
             <div>
@@ -78,7 +78,7 @@
             </p>
             </div>
             </div>
-            <p1 class="deposit">Deposit of 300, at a time of booking</p1>
+            <p class="deposit">Deposit of 300, at a time of booking</p>
         </section>
 
 
@@ -89,43 +89,31 @@
             <form action="#" id="booking_form">
                 <button type="button" class="close_book" id="close_book">&#x2715;</button><br>
                 <input type="text" placeholder="Full name" class="input_book" required><br>
-                <label for="" class="book_label">Style:</label><br>
-                <input list="browsers" name="browsers" class="input_book">
-                <datalist id="browsers">
-                    <option value="Realistic">
-                    <option value="Oldschool/Neotraditional">
-                    <option value="Whipshading">
-                    <option value="Dotwork">
-                    <option value="Blackwork/Lines">
-                    <option value="Color">
-                    <option value="Color splashes/Watercolor">
-                    <option value="Mix">
-                </datalist><br>
 
-                <select id="styles" name="styles" class="input_book" required>
-                    <option value="Realistic">Realistic</option>
-                    <option value="Oldschool/Neotraditional">Oldschool/Neotraditional</option>
-                    <option value="Whipshading">Whipshading</option>
-                    <option value="Dotwork">Dotwork</option>
-                    <option value="Blackwork/Lines" class="option">Blackwork/Lines</option>
-                    <option value="Color">Color</option>
-                    <option value="Color splashes/Watercolor">Color splashes/Watercolor</option>
-                    <option value="Mix">Mix</option>
+                <select name="styles" class="input_book" required>
+                    <option value="">Realistic</option>
+                    <option value="">Oldschool/Neotraditional</option>
+                    <option value="">Whipshading</option>
+                    <option value="">Dotwork</option>
+                    <option value="" class="">Blackwork/Lines</option>
+                    <option value="">Color</option>
+                    <option value="">Color splashes/Watercolor</option>
+                    <option value="">Mix</option>
                 </select><br>
 
                 <input type="email" placeholder="Email" class="input_book" required><br>
                 <input type="text" placeholder="Size (cm)" class="input_book" required><br>
-                <label for="" class="book_label">Available time:</label><br>
-                <input type="date" class="input_book" required><br>
+                <label for="date" class="book_label">Available time:</label><br>
+                <input type="date" id="date" class="input_book" required><br>
 
-                <label for="" class="book_label">Artists:</label><br>
-                <select id="artists" name="artists" class="input_book" required>
-                    <option value="Anders">Anders</option>
-                    <option value="Inga">Inga</option>
+                <label for="artists" class="book_label">Artists:</label><br>
+                <select id="artists" class="input_book" required>
+                    <option value="">Anders</option>
+                    <option value="">Inga</option>
                 </select><br>
 
                 <input type="text" placeholder="Placement" class="input_book" required><br>
-                <input type="file" id="img" name="img" accept="image/*" class="input_book"><br>
+                <input type="file" name="img" accept="image/*" class="input_book"><br>
                 <input type="text" placeholder="Comment" class="input_book comment"><br>
 
                 <div class="btn2">
@@ -143,30 +131,30 @@
                 <input type="text" placeholder="Full name" class="input_book" required><br>
 
 
-                <select id="styles" name="styles" class="input_book" required>
-                    <option value="Realistic">Realistic</option>
-                    <option value="Oldschool/Neotraditional">Oldschool/Neotraditional</option>
-                    <option value="Whipshading">Whipshading</option>
-                    <option value="Dotwork">Dotwork</option>
-                    <option value="Blackwork/Lines" class="option">Blackwork/Lines</option>
-                    <option value="Color">Color</option>
-                    <option value="Color splashes/Watercolor">Color splashes/Watercolor</option>
-                    <option value="Mix">Mix</option>
+                <select name="styles" class="input_book" required>
+                    <option value="">Realistic</option>
+                    <option value="">Oldschool/Neotraditional</option>
+                    <option value="">Whipshading</option>
+                    <option value="">Dotwork</option>
+                    <option value="" class="">Blackwork/Lines</option>
+                    <option value="">Color</option>
+                    <option value="">Color splashes/Watercolor</option>
+                    <option value="">Mix</option>
                 </select><br>
 
                 <input type="email" placeholder="Email" class="input_book" required><br>
                 <input type="text" placeholder="Size (cm)" class="input_book" required><br>
-                <label for="" class="book_label">Available time:</label><br>
-                <input type="date" class="input_book" required><br>
+                <label for="date2" class="book_label">Available time:</label><br>
+                <input type="date" id="date2" class="input_book" required><br>
 
-                <label for="" class="book_label">Artists:</label><br>
-                <select id="artists" name="artists" class="input_book" required>
-                    <option value="Anders">Anders</option>
-                    <option value="Inga">Inga</option>
+                <label for="artists" class="book_label">Artists:</label><br>
+                <select name="artists" class="input_book" required>
+                    <option value="">Anders</option>
+                    <option value="">Inga</option>
                 </select><br>
 
                 <input type="text" placeholder="Placement" class="input_book" required><br>
-                <input type="file" id="img" name="img" accept="image/*" class="input_book"><br>
+                <input type="file" name="img" accept="image/*" class="input_book"><br>
                 <input type="text" placeholder="Comment" class="input_book comment"><br>
 
                 <div class="btn2">
@@ -187,7 +175,7 @@
         <div class="gift_div">
 
            <p class="deposit_web">Deposit of 300, at a time of booking*</p>
-           <p1 class="deposit_text_web">* The deposit will be counted from the price after the finished job, or withdrawal via absence. Moving or cancelling the appointments have to be done minimum 48 hours before the appointment.</p1>
+           <p class="deposit_text_web">* The deposit will be counted from the price after the finished job, or withdrawal via absence. Moving or cancelling the appointments have to be done minimum 48 hours before the appointment.</p>
 
             <h2 class="subheader giftcard_header">GIFT CARDS</h2>
             <img src="../images/giftCard.png" alt="GiftCardImage" id="giftcard" class="giftcard">
@@ -214,7 +202,7 @@
 
 
 
-           <h class="breadcrumb">PRICES</h>
+           <h2 class="breadcrumb">PRICES</h2>
            <div class="SoMe_div_side">
             <a href="https://www.facebook.com/Flyingneedlestattoo/?fref=tsl"><img src="../images/facebook.png" alt="FacebookIcon" class=SoMe_side></a>
             <a href="https://www.instagram.com/aa_tattoo_flyingneedles_/"><img src="../images/instagram.png" alt="InstagramIcon" class=SoMe_side></a>

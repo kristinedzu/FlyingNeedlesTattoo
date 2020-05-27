@@ -148,7 +148,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 .navlink1:Hover:before {
@@ -204,7 +203,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 .navlink4:Hover:before {
@@ -245,7 +243,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 .navlink5:Hover:before {
@@ -280,7 +277,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 .navlink6:Hover:before {
@@ -387,7 +383,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 #linkInga:Hover:before {
@@ -422,7 +417,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 #linkPrepare:Hover:before {
@@ -459,7 +453,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 #linkHygiene:Hover:before {
@@ -496,7 +489,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 #linkAftercare:Hover:before {
@@ -533,7 +525,6 @@ li {
     -webkit-transition: width 0.6s;
     -moz-transition: width 0.6;
     -o-transition: width 0.6;
-    transition: width 0.6;
 }
 
 #linkProducts:Hover:before {

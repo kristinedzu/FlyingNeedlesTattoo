@@ -1,7 +1,5 @@
     .search-box {
         width: 44px;
-        display: flex;
-        justify-content: flex-end;
         cursor: pointer;
 
     }
@@ -10,7 +8,6 @@
     .textbox {
         width: 0px;
         padding: 0;
-        transition: 0.6s;
         background-color: transparent;
 
 
@@ -52,6 +49,9 @@
         font-size: 18px;
     }
 
+.landing_video {
+    width: 100%;
+}
 
     /*this is the photo gallery */
 
@@ -96,7 +96,6 @@
     .slick-next:before {
         font-family: 'lato light';
         font-size: 60px;
-        line-height: ;
         color: white;
     }
 
@@ -197,13 +196,13 @@
         content: '•';
         text-align: center;
         color: #556476;
-        opacity: 0.70;
+        opacity: 0.7;
     }
 
     .slick-dots li.slick-active button:before {
         color: #556476;
         font-size: 70px;
-        opacity: 1;
+        opacity: 1.1;
     }
 
     .breadcrumb {
@@ -234,6 +233,10 @@
 
     @media only screen and (min-width: 768px) {
 
+
+        .landing_video {
+        display: none;
+}
         .aboutus-mobile {
             display: none;
         }
@@ -359,6 +362,8 @@
         .image-container:hover img {
             transform: scale(1.2);
             transition-duration: .3s;
+
+            cursor: pointer;
 
         }
 
