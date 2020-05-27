@@ -46,7 +46,7 @@ body {
 
 .search-box {
      width: 44px;
-    height: 44px;
+    height: 38px;
      display: flex;
      justify-content: flex-end;
      cursor: pointer;
@@ -594,7 +594,7 @@ li {
 
     .search_icon {
     width: 5vw;
-        height: 4.2vw;
+        height: 4vw;
         max-width: 50px;
         padding-right: 0.7vw;
         margin-top: 18px;
