@@ -665,13 +665,10 @@ padding-top: 30px;
             animation-timing-function: ease-out;
     opacity: 1;
   }
-}
 
 
-}
 
-
-.BigPhoto {
+    .BigPhoto {
     position: absolute;
     width: 60vw;
     max-width: 800px;
@@ -712,3 +709,13 @@ box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
   filter: grayscale(0%);
   opacity: 1;
 }
+
+
+}
+
+
+}
+
+
+
+
