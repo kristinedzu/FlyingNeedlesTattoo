@@ -115,6 +115,17 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $('.feedback_auto').slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        autoplay: true,
+        swipe: true,
+    });
+});
+
+
 
 /* read more button */
 
@@ -254,7 +265,7 @@ $(document).ready(function () {
 
 
 
-/* artists phot gallery */
+/* artists photo gallery */
 
 
 $(document).ready(function () {
@@ -350,5 +361,37 @@ $('.anders1').click(function() {
                 $(".inga15").toggleClass("BigPhoto2");
             });
 
+
+    });
+
+/* about us gallery big photos */
+
+
+$(document).ready(function () {
+
+$('.aboutus1').click(function() {
+                $(".aboutus1").toggleClass("about_us_big");
+            });
+    $('.aboutus2').click(function() {
+                $(".aboutus2").toggleClass("about_us_big");
+            });
+    $('.aboutus3').click(function() {
+                $(".aboutus3").toggleClass("about_us_big");
+            });
+    $('.aboutus4').click(function() {
+                $(".aboutus4").toggleClass("about_us_big");
+            });
+    $('.aboutus5').click(function() {
+                $(".aboutus5").toggleClass("about_us_big");
+            });
+    $('.aboutus6').click(function() {
+                $(".aboutus6").toggleClass("about_us_big");
+            });
+    $('.aboutus7').click(function() {
+                $(".aboutus7").toggleClass("about_us_big");
+            });
+    $('.aboutus8').click(function() {
+                $(".aboutus8").toggleClass("about_us_big");
+            });
 
     });

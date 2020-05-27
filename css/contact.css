@@ -209,6 +209,10 @@ input[type=text] {
     display: none;
 }
 
+button {
+    outline: none;
+}
+
 /* media querries for artists page */
 
 @media only screen and (min-width: 768px) {
