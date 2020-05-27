@@ -154,6 +154,23 @@ button {
 
 .image {
     width: 200px;
+    padding: 0 10px 10px 0;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
 }
 
 /* arrows */
@@ -651,4 +668,47 @@ padding-top: 30px;
 }
 
 
+}
+
+
+.BigPhoto {
+    position: absolute;
+    width: 60vw;
+    max-width: 800px;
+    top: 110%;
+    right: 10%;
+    border: 5px solid #556476;
+    padding: 0;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+}
+
+.BigPhoto:hover {
+    cursor: pointer;
+    transform: scale(1);
+  transition-duration: .3s;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.BigPhoto2 {
+    position: absolute;
+    width: 60vw;
+    max-width: 800px;
+    top: 225%;
+    right: 10%;
+    border: 5px solid #556476;
+    padding: 0;
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+}
+
+.BigPhoto2:hover {
+    cursor: pointer;
+    transform: scale(1);
+  transition-duration: .3s;
+  filter: grayscale(0%);
+  opacity: 1;
 }
