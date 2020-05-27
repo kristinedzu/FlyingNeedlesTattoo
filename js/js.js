@@ -115,6 +115,17 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $('.feedback_auto').slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        autoplay: true,
+        swipe: true,
+    });
+});
+
+
 
 /* read more button */
 
@@ -254,7 +265,7 @@ $(document).ready(function () {
 
 
 
-/* artists phot gallery */
+/* artists photo gallery */
 
 
 $(document).ready(function () {
@@ -352,3 +363,82 @@ $('.anders1').click(function() {
 
 
     });
+
+/* about us gallery big photos */
+
+
+$(document).ready(function () {
+
+$('.aboutus1').click(function() {
+                $(".aboutus1").toggleClass("about_us_big");
+            });
+    $('.aboutus2').click(function() {
+                $(".aboutus2").toggleClass("about_us_big");
+            });
+    $('.aboutus3').click(function() {
+                $(".aboutus3").toggleClass("about_us_big");
+            });
+    $('.aboutus4').click(function() {
+                $(".aboutus4").toggleClass("about_us_big");
+            });
+    $('.aboutus5').click(function() {
+                $(".aboutus5").toggleClass("about_us_big");
+            });
+    $('.aboutus6').click(function() {
+                $(".aboutus6").toggleClass("about_us_big");
+            });
+    $('.aboutus7').click(function() {
+                $(".aboutus7").toggleClass("about_us_big");
+            });
+    $('.aboutus8').click(function() {
+                $(".aboutus8").toggleClass("about_us_big");
+            });
+
+    });
+
+
+
+$(document).ready(function () {
+var images = document.querySelectorAll('.bookmarks-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 1.8,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+
+        var images = document.querySelectorAll('.poster-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 1.8,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+
+        var images = document.querySelectorAll('.stickers-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 2.5,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+        var images = document.querySelectorAll('.badges-web');
+        new simpleParallax(images, {
+            delay: 0,
+            orientation: 'down',
+            scale: 1,
+            overflow: true,
+            customContainer: '.container',
+            customWrapper: '.wrapper'
+
+        });
+     });
