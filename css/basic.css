@@ -39,13 +39,14 @@ body {
 }
 
 .search_icon {
-    width: 44px;
+    width: 40px;
+    height: 38px;
     border-right: 2px solid #556476;
-    padding: 8px 10px;
+    padding: 8px 10px 8px 0;
 }
 
 .search-box {
-     width: 44px;
+     width: 40px;
     height: 38px;
      display: flex;
      justify-content: flex-end;
@@ -593,9 +594,10 @@ li {
     }
 
     .search_icon {
-    width: 5vw;
-        height: 4vw;
-        max-width: 50px;
+        width: 4vw;
+        height: 5vw;
+    max-width: 44px;
+        max-height: 44px;
         padding-right: 0.7vw;
         margin-top: 18px;
 }
@@ -611,7 +613,6 @@ li {
  .textbox:focus {
      background-color: #2D2D2D;
      opacity: 0.5;
-     height: 44px;
      position: relative;
      z-index: 100;
  }
