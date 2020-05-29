@@ -88,6 +88,13 @@
     margin: 10px 0 auto 70%;
 }
 
+#ReadLess:hover {
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #556476;
+}
+
 #ReadMore {
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
@@ -96,6 +103,13 @@
     background-color: #E8EAEB;
     color: #556476;
     margin: 5px 0 auto 65%;
+}
+
+#ReadMore:hover {
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #556476;
 }
 
 button {
@@ -135,6 +149,8 @@ button {
     padding: 6px 30px;
 }
 
+
+
 .btn {
     background-color: transparent;
     border: 0.5px solid #546375;
@@ -142,6 +158,13 @@ button {
     font-size: 25px;
     padding: 3px;
     margin: auto 0;
+}
+
+.cta:hover {
+    background-color: #556476;
+    color: #E8EAEB;
+    cursor: pointer;
+  transition-duration: 1s;
 }
 
 
@@ -160,18 +183,12 @@ button {
 .image:hover {
     cursor: pointer;
     transform: scale(1.1);
-  transition-duration: .3s;
+  transition-duration: 0.6s;
   filter: grayscale(50%);
   opacity: .7;
 }
 
-.image:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  transition-duration: .3s;
-  filter: grayscale(50%);
-  opacity: .7;
-}
+
 
 /* arrows */
 
@@ -269,6 +286,13 @@ button {
     margin: 10px 0 auto 70%;
 }
 
+#ReadLess2:hover {
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #556476;
+}
+
 #ReadMore2 {
     font-family: azo-sans-web, sans-serif;
     font-style: normal;
@@ -277,6 +301,13 @@ button {
     background-color: #E8EAEB;
     color: #556476;
     margin: 5px 0 auto 65%;
+}
+
+#ReadMore2:hover {
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #556476;
 }
 
 a {
