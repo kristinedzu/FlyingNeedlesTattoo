@@ -145,6 +145,7 @@
         font-size: 15px;
         border-top: solid 1px #556476;
         padding: 5px 12px 0 12px;
+        margin: 0 30%;
     }
 
 
@@ -444,6 +445,7 @@
             font-size: 15px;
             border-top: solid 1px #556476;
             padding: 5px 12px 0 12px;
+            margin: 0 40%;
         }
 
         .ornament-feedback {
